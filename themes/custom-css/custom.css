@@ -232,6 +232,11 @@ table.datadisplay {
         border-top: 1px solid #ccc;
         background-color:#eeeeee;
 }
+
+.datadisplay tbody {
+	padding: 10px 0 7px 10px;
+}
+
 .datadisplay tbody tr:hover {
         background-color: #FDFFBD;
 }
@@ -500,7 +505,7 @@ ol.vertical li.placeholder:before {
 
 
 div.dataTables_length label {
-  width :70%;
+  width :100%;
   margin-left:25px;
   text-align: left;
 }
@@ -512,7 +517,7 @@ div.dataTables_length select {
 
 div.dataTables_filter label {
   float : right;
-  width :90%;
+  width :100%;
   margin :-4px;
 }
 
